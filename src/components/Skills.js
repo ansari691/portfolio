@@ -46,9 +46,9 @@ const Skills = () => {
     ]
 
     return ( 
-        <div>
+        <div className="border-bottom" style={{ backgroundImage: `url("./assets/images/bg4.svg")` }}>
             <div className="text-center">
-                <h2>Technologies</h2>
+                <h2 className="my-5">Technologies</h2>
             </div>
             <div className="row p-2 justify-content-center">
                 {skills.map(skill => <Skill name={skill.name} image={skill.image}/>)} 

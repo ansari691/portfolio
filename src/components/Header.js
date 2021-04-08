@@ -15,7 +15,7 @@ const Header = () => {
       </div>
       <div className="d-flex">
         <IoIosLaptop className="h-100 mr-2 pt-1 icon"/>
-        <p className="mb-0 pt-2 d-none d-sm-block">Technical Skills</p>
+        <p className="mb-0 pt-2 d-none d-sm-block">Projects</p>
       </div>
       <div className="d-flex">
         <RiShieldStarLine className="h-100 mr-2 pt-1 icon"/>
