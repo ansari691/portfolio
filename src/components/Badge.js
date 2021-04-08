@@ -1,7 +1,7 @@
 const Badge = () => {
   return (
     <div
-      className="text-center row align-items-center border p-5"
+      className="text-center row align-items-center border p-5 mt-5"
       style={{ backgroundImage: `url("./assets/images/bg4.svg")` }}
     >
       <div className="col-md-4">
