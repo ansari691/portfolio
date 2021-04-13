@@ -1,5 +1,6 @@
 import Badge from "../components/Badge"
 import EducationList from "../components/EductionList";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Skills from "../components/Skills";
 import WorkList from "../components/WorkList";
@@ -12,6 +13,7 @@ const Home = () => {
             <Skills />
             <WorkList />
             <EducationList />
+            <Footer />
         </div>
      );
 }

@@ -17,7 +17,7 @@ const EducationList = () => {
     ]
 
     return ( 
-        <div>
+        <div className="border-bottom">
             <h2 className="text-center my-5">Education</h2>
             <div className="p-5">
             {educationList.map(education => <WorkEduItem image={education.image} name={education.name} position={education.position} duration={education.duration} description={education.description}/>)}
