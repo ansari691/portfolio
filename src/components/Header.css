@@ -4,6 +4,22 @@
     }
 }
 
+@media only screen and (max-width: 374px) {
+  .logo{
+    display: none;
+  }
+}
+
 .icon {
     font-size: 2em;
+}
+
+a, a:hover {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+a:hover {
+  border: 1px solid #dee2e6!important;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
 }

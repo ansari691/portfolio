@@ -1,6 +1,7 @@
 const Badge = () => {
   return (
     <div
+      id="badge"
       className="text-center row align-items-center border p-5 mt-5"
       style={{ backgroundImage: `url("./assets/images/bg4.svg")` }}
     >

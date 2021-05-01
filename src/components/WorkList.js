@@ -18,7 +18,7 @@ const WorkList = () => {
   ];
 
   return (
-    <div className="border-bottom">
+    <div className="border-bottom" id="experience">
       <h2 className="text-center my-5">Work Experience</h2>
       <div className="p-5">
         {workList.map((work) => (
